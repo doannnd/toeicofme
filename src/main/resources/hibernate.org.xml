@@ -13,5 +13,10 @@
         <!-- show sql statement in console -->
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <!-- mapping class-->
+        <mapping class="com.nguyendinhdoan.toeic.entity.UserDTO"/>
+        <mapping class="com.nguyendinhdoan.toeic.entity.RoleDTO"/>
+        <mapping class="com.nguyendinhdoan.toeic.entity.CommentDTO"/>
+        <mapping class="com.nguyendinhdoan.toeic.entity.ListenGuideLineDTO"/>
     </session-factory>
 </hibernate-configuration>
